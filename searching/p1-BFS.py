@@ -1,3 +1,6 @@
+from collections import deque
+
+
 def bfs(graph, start, visited):
     # 큐(Queue) 구현을 위해 deque 라이브러리 사용
     queue = deque([start])  # 시작 노드를 큐로 initializing 하는데 리스트에 담아서
